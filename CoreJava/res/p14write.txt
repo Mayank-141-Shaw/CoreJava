@@ -1,0 +1,6 @@
+import java.io.*;
+	// this is java
+	// java is fun
+	system.out.println("java is awesome");
+	int java=1;
+	system.out.println(java);
