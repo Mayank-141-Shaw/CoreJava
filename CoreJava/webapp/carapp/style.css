@@ -1,0 +1,90 @@
+body{
+		font-family: monospace;
+	}
+	.container{
+		background-color: rgba(99, 101, 102, 0.555);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 5px;
+		margin: 5px;	
+		border-radius: 15px;
+	}
+	
+	.table-container{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	table{
+		width: 100%;
+		text-align: center;
+		border : 1px solid #aaa;
+	}
+	tr{
+		display: flex;
+		width: 100%;
+		padding: 10px 0;
+		text-align: center;
+		background: #ddd;
+		
+	}
+	th{
+		width: 100%;
+		background: #000;
+		padding: 10px 0;
+	}
+	
+	tr:nth-of-type(odd){
+		background: #aaa;
+	}
+	td, th{
+		flex: 1 1 20%;
+		text-align: center;
+		font-weight: bold;
+		font-size: 15px;
+	}
+	th{
+		text-transform: uppercase;
+		align-items: center;
+		color: white;
+		
+	}
+	label{
+		font-size: 20px;
+	}
+	input[type='text'], input[type='number'], input[type='password']{
+		height: 30px;
+		border-radius: 10px;
+		padding: 0 20px;
+		margin: 0 10px;
+	}
+	input[type='submit'], input[type='reset']{
+		background: rgb(31, 110, 146);
+		border-radius: 10px;
+		padding: 5px 50px;
+		color: white;
+		font-weight: bold;
+		font-size: 30px;
+	}
+	.console-box{
+		display : flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	button{
+		border-radius: 10px;
+		padding: 5px 50px;
+		background-color: rgb(31, 110, 146);
+		color: white;
+		font-weight: bold;
+		font-size: 30px;
+	}
+	button:hover, input[type='submit']:hover, input[type='reset']:hover{
+		cursor: pointer;
+		box-shadow: 3px 3px 10px black;
+	}
+	form{
+		margin: 10px 0;
+	}

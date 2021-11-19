@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet">
+<title>Servlet Car Rental</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to Servlet Car Rental </h1>
+	</div>
+	<div class="container">
+		<div class="console-box">
+			<form action="homepage" method="POST">
+				<input type="hidden" name="action" value="register"/>
+				<button type="submit">REGISTER ACCOUNT</button>	
+			</form>
+			<form action="homepage" method="POST">
+				<input type="hidden" name="action" value="login"/>
+				<button type="submit">LOGIN</button>	
+			</form>
+			<form action="homepage" method="POST">
+				<input type="hidden" name="action" value="adminlogin"/>
+				<button type="submit">ADMIN LOGIN</button>	
+			</form>
+			<form action="homepage" method="POST">
+				<input type="hidden" name="action" value="showAllCars"/>
+				<button type="submit">SHOW ALL CARS</button>	
+			</form>
+			<form action="homepage" method="POST">
+				<input type="hidden" name="action" value="showAvailableCars"/>
+				<button type="submit">SHOW ALL AVAILABLE CARS</button>	
+			</form>
+			<a href="../index.html"><button>EXIT</button>	</a>	
+			
+		</div>
+	</div>
+</body>
+</html>

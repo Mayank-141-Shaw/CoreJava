@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet">
+<title>Servlet Bank App</title>
+
+</head>
+<body>
+	<div class="container">
+		<h1>Admin Menu</h1>
+	</div>
+	<div class="container">
+		<div class="console-box">
+			<form action="adminmenu" method="POST">
+				<input type="hidden" name="action" value="seedata"/>
+				<button type="submit">SEE DETAILS</button>	
+			</form>
+			<form action="adminmenu" method="POST">
+				<input type="hidden" name="action" value="addcar"/>
+				<button type="submit">ADD CAR</button>	
+			</form>
+			<form action="adminmenu" method="POST">
+				<input type="hidden" name="action" value="removecar"/>
+				<button type="submit">REMOVE CAR</button>	
+			</form>
+			<form action="adminmenu" method="POST">
+				<input type="hidden" name="action" value="logout"/>
+				<button type="submit">LOG OUT</button>	
+			</form>
+			
+		</div>
+	</div>
+</body>
+</html>

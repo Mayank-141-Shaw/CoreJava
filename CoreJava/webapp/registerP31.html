@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- register form -->
+	<form method="POST" action="register-p31">
+		<table>
+			<tr>
+				<td><label>Name : </label></td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td><label>Age : </label></td>
+				<td><input type="number" name="age"></td>
+			</tr>
+			<tr>
+				<td><label>Email ID : </label></td>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<td><label>Mobile : </label></td>
+				<td><input type="tel" name="mobile"></td>
+			</tr>
+			<tr>
+				<td><label>Qualification : </label></td>
+				<td><input type="radio" name="qualification" value="UG"> UG 
+					<input type="radio" name="qualification" value="PG"> PG </td>
+			</tr>
+			<tr>
+				<td><label>Course : </label></td>
+				<td><select name="course">
+						<option value="java">Java</option>
+						<option value="python">Python</option>
+						<option value="c#">C#</option>
+						<option value="ruby">Ruby</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td><input type="reset" value="RESET"></td>
+				<td><input type="submit" value="SUBMIT"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
