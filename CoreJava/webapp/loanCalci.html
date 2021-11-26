@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Loan Calculator</h1>
+<form method="POST" action="emicalculate.jsp">
+	<table border="2">
+		<tr>
+			<td>Enter Loan Amount </td>
+			<td><input type="number" min="0" name="loanAmt"/></td>
+		</tr>
+		<tr>
+			<td>Enter Period In Years(Min 5, Max 20) </td>
+			<td><input type="number" min="5" max="20" name="period"/></td>
+		</tr>
+		<tr>
+			<td>Enter Rate of Interest </td>
+			<td><input type="number" min="1" name="rate"/></td>
+		</tr>
+		<tr>
+			<td><input type="reset" value="RESET"/></td>
+			<td><input type="submit" value="SUBMIT"/></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
